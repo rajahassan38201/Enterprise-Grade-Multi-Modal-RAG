@@ -11,11 +11,11 @@ from typing import Any, Dict, List, Literal, TypedDict
 from langgraph.graph import END, StateGraph
 
 from src.nodes import (
-    confidence_router_node,
+    router_node,
+    retriever_node,
     generator_node,
     grader_node,
-    retriever_node,
-    router_node,
+    confidence_router_node
 )
 
 
