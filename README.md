@@ -1,6 +1,6 @@
 # LearnForge Support Assistant
 
-An agentic RAG customer support assistant for LearnForge (ed-tech), built as a take-home prototype for the Applied AI/LLM Engineer role.
+An agentic RAG customer support assistant for (ed-tech).
 
 The system answers user questions from an internal knowledge base of FAQs, policies, and past support tickets — while **reducing hallucination**, **handling multi-turn conversations**, and **escalating to humans when not confident**.
 
@@ -109,7 +109,7 @@ To measure answer quality and hallucination rate in production, I would implemen
 
 ### Setup
 ```bash
-git clone https://github.com/rajahassan38201/Edversity-Home-Assignment.git
+git clone https://github.com/rajahassan38201/Enterprise-Grade-Multi-Modal-RAG.git
 cd Edversity-Home-Assignment
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
